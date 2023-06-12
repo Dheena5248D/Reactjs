@@ -1,0 +1,107 @@
+body{
+background-color: rgb(0, 0, 0);
+}
+#img1{
+  height: 635px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.navbutt{
+  color: RGB(255, 189, 57);
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size:16px;
+  margin: 0 20px;
+}
+
+#dd{
+
+  font-family: 'Poppins', sans-serif;
+  color: RGB(255, 255, 255);
+  font-size:24px;
+}
+#navdiv{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.navbutt {
+  margin: 0 10px;
+  position: relative;
+  cursor: pointer;
+  border: 0;
+  margin-bottom: 1px;
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }}
+.navbutt:hover {
+  border-bottom: 5px solid RGB(255, 189, 57);
+}
+.homeTxt {
+  font-family: 'Poppins', sans-serif;
+  color: RGB(255, 189, 57);
+}
+#home1{
+  font-size:30px;
+}
+#im{
+  font-size: 60px;
+  color: RGB(255, 255, 255);
+}
+#dheena{
+  font-size: 60px;
+}
+#home3{
+  font-size: 30px;
+  color: RGB(255, 255, 255);
+  margin-left: 50px;
+}
+.butthireme{
+ margin-top: 50px;
+ margin-left: 100px;
+  height: 50px;
+  width: 110px;
+  background: #ffbd39;
+    border: 1px solid #ffbd39 !important;
+    color: #000000 !important;
+    cursor: pointer;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.buttmyskills{
+  margin-top: 50px;
+ margin-left: 30px;
+  height: 50px;
+  width: 110px;
+    border: 1px solid #ffbd39 !important;
+    color: #000000 !important;
+    cursor: pointer;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  background: RGB(255, 255, 255);
+}
