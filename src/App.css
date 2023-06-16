@@ -2,7 +2,12 @@ body{
 background-color: rgb(0, 0, 0);
 }
 #img1{
-  height: 635px;
+  height: 600px;
+}
+
+#img2{
+  height: 625px;
+  margin-top: 0px;
 }
 .nav {
   display: flex;
@@ -24,6 +29,7 @@ background-color: rgb(0, 0, 0);
   font-size:24px;
 }
 #navdiv{
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   margin-left: 25px;
@@ -104,4 +110,56 @@ background-color: rgb(0, 0, 0);
   letter-spacing: 2px;
   font-weight: 600;
   background: RGB(255, 255, 255);
+}
+
+#aliit{
+  color: #ffffff;
+  list-style-type: none;
+  font-size: 21px;
+  margin-top: -30px;
+  margin-left: 80px;
+  margin-right: 0px;
+  /* background-color: aqua; */
+  padding: 0px;
+  width: 30vh;
+}
+#abtxt{
+  margin-top: 00px;
+  margin-left:0px;
+  width: 500px;
+}
+.abliit{
+  font-size: 26px;
+  margin-top: 30px;
+}
+#img2div{
+  margin-left: 200px;
+  margin-top: 0px;
+
+  
+  /* background-color: bisque; */
+
+}
+.abme{
+  font-size: 50px;
+  width: 244px;
+  margin-left: 170px;
+  margin-top: 00px;
+  color: #ffbd39;
+  /* background-color: blueviolet; */
+}
+.aban{
+  color: RGB(153, 153, 153);
+  list-style-type: none;
+  font-size: 26px;
+  margin-top:30px ;
+}
+#abandiv{
+  color: #ffffff;
+  list-style-type: none;
+  font-size: 28px;
+  margin-left: 40px;
+  margin-top: -30px;
+
+  /* background-color: #ffbd39; */
 }
