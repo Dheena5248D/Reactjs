@@ -4,6 +4,7 @@ import "./App.css"
 const Nav =()=>{
 return(
   <div id="navdiv">
+  detele this after
     <span id="dd">DD</span>
     <nav className="nav">
       <li className="navbutt" href="#home" >home</li>
