@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+delete this after import React, { useState, useEffect } from "react";
 import "./App.css"
 
 const Nav =()=>{
