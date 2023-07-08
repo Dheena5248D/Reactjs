@@ -1,10 +1,9 @@
-delete this after import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css"
 
 const Nav =()=>{
 return(
   <div id="navdiv">
-  detele this after
     <span id="dd">DD</span>
     <nav className="nav">
       <li className="navbutt" href="#home" >home</li>
