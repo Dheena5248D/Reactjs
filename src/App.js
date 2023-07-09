@@ -59,6 +59,18 @@ const AboutMeContent =()=>{
      <img id="img2" src="https://i.ibb.co/KrswXb1/userlmn-c4f4ba50d98beb6ab451b6839f7fcf4f.png" alt="dd" border="0" /></div>
 </section>)
 }
+const Services =()=>{
+  return(
+    <section >
+      <div id="serve_heading">services</div>
+      <div id="services">
+      <div className="serve_cards" id="serve_card1">figma to website</div>
+      <div className="serve_cards" id="serve_card2">portpholio website</div>
+      <div className="serve_cards" id="serve_card3">make your website responsive</div>
+      <div className="serve_cards" id="serve_card4"> html,css,js to react</div> </div>
+    </section>
+  )
+}
 
 
 const App = () => {
